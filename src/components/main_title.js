@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 export default class MainTitle extends Component {
     render() {
         const { text } = this.props;
-        console.log(this.props.text);
         return <h1 style={{
             color: 'black',
             width: '100%',
