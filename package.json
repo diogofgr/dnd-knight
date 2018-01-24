@@ -7,7 +7,7 @@
     "lint": "eslint src",
     "build": "webpack",
     "predeploy": "npm run build",
-    "deploy": "git push origin gh-pages"
+    "deploy": "git commit -am 'update bundle' && git push origin gh-pages"
   },
   "repository": {
     "type": "git",
