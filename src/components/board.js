@@ -43,7 +43,7 @@ export default class Board extends Component {
             squares.push(this.renderSquare(i));
         }
         // create a square shaped board that adapts to window size (only on page load):
-        const maxDimension = "90" + (window.innerHeight < window.innerWidth ? "vh" : "vw");
+        const maxDimension = "40" + (window.innerHeight < window.innerWidth ? "vh" : "vw");
 
         return (
             <div style={{
